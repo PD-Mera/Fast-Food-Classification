@@ -1,0 +1,23 @@
+DATASET:
+  PARENT_PATH: ./data
+  TRAIN_DIR: Train
+  VALID_DIR: Valid
+  CLASSES: [Baker Potato, Burger, Crispy Chicken, Donut, Fries, Hot Dog, Pizza, Sandwich, Taco, Taquito]
+
+MODEL:
+  NAME: rexnet_100
+  TASK: multiclass # 'binary', 'multiclass', 'multilabel'
+  CHECKPOINT_PATH: ./weights/rexnet_100_best_model.pt
+
+TRAIN:
+  IMAGE_SIZE: [224, 224]
+  LEARNING_RATE: !!float 5e-3
+  LABEL_SMOOTHING: 0.1
+  BATCH_SIZE: 64
+  NUM_EPOCHS: 40
+  BEST_MODEL_SAVE_PATH: ./weights/
+
+INFER:
+  CHECKPOINT_PATH: ./weights/rexnet_100_best_model.pt
+  IMAGE_PATH: ./data/Test/Burger/Burger-Test (5).jpeg # DIR or FILENAME
+  IMAGE_SIZE: [224, 224]
