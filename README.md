@@ -57,9 +57,16 @@ python train.py --cfg ./cfg/cfg.yaml
 
 After training, you will obtain `.pt` model weight
 
+## Experiment Results
+
+| Model | Accuracy | Pretrained | Model size |
+| --- | :---: | :---: | :---: |
+| **Regnet_Y_32MF** | 90.68% | [Model](https://drive.google.com/file/d/1A9JCJW9IPAE93t7uV-vBCIg3COvCkQvC/view?usp=share_link) | 54.4MB |
+
+
 ## Infer
 
-Pretrained weight can be found [here](https://drive.google.com/file/d/1A9JCJW9IPAE93t7uV-vBCIg3COvCkQvC/view?usp=share_link), put pretrained weight or use your weight
+Pretrained weight can be downloaded from above, put pretrained weight or use your weight
 
 Modify weight and image to infer in `./cfg/cfg.yaml` and run
 
