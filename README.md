@@ -85,7 +85,7 @@ python infer.py
 
 ## Citation
 
-``` latex
+``` bibtex
 @misc{rw2019timm,
   author = {Ross Wightman},
   title = {PyTorch Image Models},
