@@ -59,6 +59,8 @@ After training, you will obtain `.pt` model weight
 
 ## Infer
 
+Pretrained weight can be found [here](https://drive.google.com/file/d/1A9JCJW9IPAE93t7uV-vBCIg3COvCkQvC/view?usp=share_link), put pretrained weight or use your weight
+
 Modify weight and image to infer in `./cfg/cfg.yaml` and run
 
 ``` bash
