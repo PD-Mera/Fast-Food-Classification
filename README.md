@@ -61,7 +61,7 @@ After training, you will obtain `.pt` model weight
 
 | Model | Accuracy | Pretrained | Model size |
 | --- | :---: | :---: | :---: |
-| **Regnet_Y_32MF** | 90.68% | [Model](https://drive.google.com/file/d/1A9JCJW9IPAE93t7uV-vBCIg3COvCkQvC/view?usp=share_link) | 54.4MB |
+| **rexnet_100** | 90.68% | [Model](https://drive.google.com/file/d/1A9JCJW9IPAE93t7uV-vBCIg3COvCkQvC/view?usp=share_link) | 54.4MB |
 
 
 ## Infer
