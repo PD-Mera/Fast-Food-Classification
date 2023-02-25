@@ -35,7 +35,7 @@ def pil_image_concat(list_img: list, rows: int, cols: int, image_size = (224, 22
 
 if __name__ == "__main__":
     rows, cols = 4, 7
-    img_dir = "/home/teamai/TeamAI/dongtrinh/Fast-Food-Classification/data"
+    img_dir = "../data"
     list_image_path = get_all_image(img_dir)[:rows*cols]
     pil_image_concat(list_image_path, rows, cols)
 
