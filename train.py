@@ -197,8 +197,7 @@ def main(cfg):
 
     if cfg['MODEL']['CHECKPOINT_PATH'] is not None:
         checkpoint_path = cfg['MODEL']['CHECKPOINT_PATH']
-
-    trainer.load_checkpoint(checkpoint_path)
+        trainer.load_checkpoint(checkpoint_path)
 
     trainer.train(
         per_device_batch_size=batch_size,
